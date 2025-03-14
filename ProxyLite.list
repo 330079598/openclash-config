@@ -1,9 +1,6 @@
 # 代理补充列表
 
 # 自己配置需要走代理的域名
-DOMAIN-SUFFIX,docker.com
-DOMAIN-SUFFIX,steampowered.com
-DOMAIN-SUFFIX,nvidia.com
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,qichiyu.com
