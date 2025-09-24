@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,eclipse.org
 DOMAIN-SUFFIX,library.ucy.ac.cy
 DOMAIN-SUFFIX,library.ucy
 DOMAIN-SUFFIX,mirror.library.ucy.ac.cy
+DOMAIN-SUFFIX,crates.io
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
