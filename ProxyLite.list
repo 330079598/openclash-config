@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,aicoding.sh
 DOMAIN-SUFFIX,anyrouter.top
 DOMAIN-SUFFIX,elysiver.h-e.top
 DOMAIN-SUFFIX,pkg.dev
+DOMAIN-SUFFIX,cilium.io
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
