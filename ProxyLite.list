@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,cilium.io
 DOMAIN-SUFFIX,broadcom.com
 DOMAIN-SUFFIX,newapi.ai
 DOMAIN-SUFFIX,namesilo.com
+DOMAIN-SUFFIX,war.gov
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
