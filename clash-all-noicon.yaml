@@ -113,6 +113,7 @@ proxy-groups:
   - {name: Crypto, <<: *default}
   - {name: Amazon, <<: *default}
   - {name: Apple, <<: *default}
+  - {name: Apple-CN, <<: *default}
   - {name: Microsoft, <<: *default}
   - {name: Google, <<: *default}
   - {name: 国外, <<: *default}
