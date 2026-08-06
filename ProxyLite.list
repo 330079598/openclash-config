@@ -23,6 +23,7 @@ DOMAIN-SUFFIX,broadcom.com
 DOMAIN-SUFFIX,newapi.ai
 DOMAIN-SUFFIX,namesilo.com
 DOMAIN-SUFFIX,war.gov
+DOMAIN-SUFFIX,orbstack.dev
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
