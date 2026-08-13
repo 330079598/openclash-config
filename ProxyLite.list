@@ -24,6 +24,7 @@ DOMAIN-SUFFIX,newapi.ai
 DOMAIN-SUFFIX,namesilo.com
 DOMAIN-SUFFIX,war.gov
 DOMAIN-SUFFIX,orbstack.dev
+DOMAIN-SUFFIX,gradle.org
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
