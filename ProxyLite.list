@@ -25,6 +25,7 @@ DOMAIN-SUFFIX,namesilo.com
 DOMAIN-SUFFIX,war.gov
 DOMAIN-SUFFIX,orbstack.dev
 DOMAIN-SUFFIX,gradle.org
+DOMAIN-SUFFIX,clash.md
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
