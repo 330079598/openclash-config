@@ -88,13 +88,13 @@ profile:
 # ========================
 default: &default
   type: select
-  proxies: [直连,所有-自动,所有-手动,香港-自动,台湾-自动,日本-自动,新加坡-自动,韩国-自动,美国-自动,其他-自动,拒绝]
+  proxies: [所有-手动,直连,所有-自动,香港-自动,台湾-自动,日本-自动,新加坡-自动,韩国-自动,美国-自动,其他-自动,拒绝]
 
 proxy-groups:
   - {name: stone, <<: *default}
   - {name: Test, <<: *default}
   - {name: ChatGPT, <<: *default}
-  - {name: Claude, <<: *default}
+  - {name: ai-rule, <<: *default}
   - {name: Meta AI, <<: *default}
   - {name: Perplexity, <<: *default}
   - {name: GitHub, <<: *default}
@@ -135,7 +135,7 @@ proxy-groups:
 rules:
   - RULE-SET,stone / Domain,stone
   - RULE-SET,ChatGPT / Domain,ChatGPT
-  - RULE-SET,Claude / Domain,Claude
+  - RULE-SET,ai-rule / Domain,ai-rule
   - RULE-SET,Meta AI / Domain,Meta AI
   - RULE-SET,Perplexity / Domain,Perplexity
   - RULE-SET,Github / Domain,GitHub
@@ -186,9 +186,9 @@ rule-anchor:
   class: &class {type: http, interval: 86400, behavior: classical, format: text}
 
 rule-providers:
-  stone / Domain: {<<: *class, url: "https://raw.githubusercontent.com/330079598/openclash-config/refs/heads/main/ProxyLite.list"}
+  stone / Domain: {<<: *class, url: "https://raw.githubusercontent.com/330079598/openclash-config/main/ProxyLite.list"}
   ChatGPT / Domain: {<<: *domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/openai.mrs"}
-  Claude / Domain: {<<: *class, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude.list"}
+  ai-rule / Domain: {<<: *class, url: "https://raw.githubusercontent.com/330079598/openclash-config/main/ai-proxy-rules.list"}
   Meta AI / Domain: {<<: *class, url: "https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/list/MetaAi.list"}
   Perplexity / Domain: {<<: *domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/perplexity.mrs"}
   AI / Domain: {<<: *domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs"}
@@ -229,5 +229,3 @@ rule-providers:
   China / IP: {<<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs"}
   Private / Domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
   GateFireWall / Domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gfw.mrs"}
-
-
