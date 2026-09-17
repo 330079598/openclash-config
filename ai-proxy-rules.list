@@ -1,3 +1,5 @@
+# https://github.com/VPSDance/ai-proxy-rules
+
 # Adobe Firefly / Core
 DOMAIN-SUFFIX,firefly.adobe.com
 DOMAIN-SUFFIX,firefly.adobe.io
