@@ -513,3 +513,7 @@ DOMAIN-SUFFIX,youmind.site
 
 # Zed / Core
 DOMAIN-SUFFIX,zed.dev
+
+
+# muse
+DOMAIN-SUFFIX,muse.ai
